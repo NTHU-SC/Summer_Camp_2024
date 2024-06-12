@@ -120,7 +120,7 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
-                      {isMonthly ? "$3000" : "$180"}
+                      {isMonthly ? "$5000" : "$180"}
                     </div>
                   </div>
                   <p className="mt-8 mb-8 2xl:mb-12 text-gray-500 leading-loose text-left">
@@ -149,7 +149,7 @@ export const Pricing = () => {
                   </h4>
                   <div className="flex justify-start items-end">
                     <div className="text-3xl sm:text-4xl font-bold text-white text-left mt-4 mr-2">
-                      {isMonthly ? "$2000" : "$390"}
+                      {isMonthly ? "$4000" : "$390"}
                     </div>
                   </div>
                   <p className="mt-4 mb-6 2xl:mb-10 text-gray-500 leading-loose text-left">
