@@ -42,7 +42,7 @@ export const Hero = () => {
                   <a
                     className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4" href="https://forms.gle/DWqtfWvNPMW4nYrTA/" target="_blank"
                   >
-                    點我報名
+                    6/16 開放報名
                   </a>
                 </div>
               </motion.div>
