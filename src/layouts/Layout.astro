@@ -5,13 +5,13 @@ import "@fontsource/inter/600.css";
 import "@fontsource/inter/700.css";
 import "@fontsource/inter/800.css";
 import "@fontsource/inter/900.css";
-import '@fontsource/noto-sans-tc';
-import '@fontsource/noto-sans-tc/100.css';
-import '@fontsource/noto-sans-tc/300.css';
-import '@fontsource/noto-sans-tc/400.css';
-import '@fontsource/noto-sans-tc/500.css';
-import '@fontsource/noto-sans-tc/700.css';
-import '@fontsource/noto-sans-tc/900.css';
+import "@fontsource/noto-sans-tc";
+import "@fontsource/noto-sans-tc/100.css";
+import "@fontsource/noto-sans-tc/300.css";
+import "@fontsource/noto-sans-tc/400.css";
+import "@fontsource/noto-sans-tc/500.css";
+import "@fontsource/noto-sans-tc/700.css";
+import "@fontsource/noto-sans-tc/900.css";
 
 export interface Props {
   title: string;
@@ -23,6 +23,19 @@ const { title } = Astro.props;
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-RK9CVR9L8V"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-RK9CVR9L8V");
+    </script>
+    
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <link
@@ -74,7 +87,7 @@ const { title } = Astro.props;
       content="https://scc.nthu.site/Summer_Camp_2024/og_image.jpg"
     />
 
-    <!-- Hotjar Tracking Code for https://scc.nthu.site/Summer_Camp_2024/ -->
+    <!-- Hotjar Tracking Code for https://scc.nthu.site/Summer_Camp_2024/
     <script>
       (function (h, o, t, j, a, r) {
         h.hj =
@@ -89,21 +102,7 @@ const { title } = Astro.props;
         r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
         a.appendChild(r);
       })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
-    </script>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XWDC3XZW8T"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-XWDC3XZW8T");
-    </script>
-
+    </script> -->
     <!-- clarity.microsoft.com -->
     <script type="text/javascript">
       (function (c, l, a, r, i, t, y) {
@@ -124,7 +123,7 @@ const { title } = Astro.props;
     <slot />
     <style is:global>
       html {
-        font-family:'Noto Sans TC', sans-serif;;
+        font-family: "Noto Sans TC", sans-serif;
         background-color: #26272b;
         overflow-x: hidden;
         scroll-behavior: smooth;
