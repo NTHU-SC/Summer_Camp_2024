@@ -21,15 +21,15 @@ export const Features1 = () => {
         <div className="flex flex-wrap items-center 2xl:w-[1450px] xl:w-[1300px] w-11/12 mx-auto md:pl-4 xl:pr-16 xl:pl-16">
           <div className="w-full lg:w-1/2 mb-12 lg:mb-0">
             <div className="mx-auto lg:mx-auto w-11/12 sm:w-4/5 md:w-3/4 lg:w-unset">
-              <span className="custom-block-subtitle">營隊將為你帶來以下的學習與成長機會</span>
+              <span className="custom-block-subtitle">你對高效能計算有興趣嗎？想瞭解科技最新趨勢嗎？<br></br>現在就是你的機會！</span>
               <h2 className="mt-6 mb-8 text-4xl lg:text-5xl custom-block-big-title">
                 專注技術的夏令營
               </h2>
               <p className="mb-5 text-customGrayText leading-loose">
-                聚集國內最優秀的產學研資源，透過真實操作超級電腦和接觸實際應用，你將學習到平行程式設計和獲得效能分析經驗。課程涵蓋超過 20小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與運用高速運算知識在 AI 的應用能力！
+              參加我們的夏令營，你將有機會操作國內領先的超級電腦，學習最前沿的平行程式設計，並掌握效能分析的核心技術。無論你是高中生還是大學生，我們的教學模式會根據你的背景和能力安排彈性學習方式，讓你獲得最好的學習效果。在這裡，你將參與超過 20 小時的專業教學課程，手把手實操練習，並參加具挑戰性的團隊黑客松競賽。
               </p>
               <p className="mb-5 text-customGrayText leading-loose">
-                營隊根據學員的背景和能力安排彈性的學習方式。立即報名參加這個營隊，開啟你在超算領域的學習之旅，並體驗到豐富的學習和成長機會！
+              立即行動，讓你在 AI 時代不落人後！
               </p>
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
