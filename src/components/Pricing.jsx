@@ -7,7 +7,7 @@ import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 const pricingData = [
   "精彩課程",
   "助教指導",
-  "三餐",
+  "餐會",
   "旅平險",
   "紀念品",
   "參加證書（國網中心核發）",
@@ -17,7 +17,7 @@ const pricingData = [
 const pricingData_no_hotel = [
   "精彩課程",
   "助教指導",
-  "三餐",
+  "餐會",
   "旅平險",
   "紀念品",
   "參加證書（國網中心核發）",
@@ -32,7 +32,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://forms.gle/DWqtfWvNPMW4nYrTA/', '_blank');
+    window.open('https://www.facebook.com/groups/300519702549029/', '_blank');
   };
 
   return (
@@ -169,7 +169,7 @@ export const Pricing = () => {
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
                 onClick={() => handleButtonClick()}
               >
-                7/23 截止，立刻報名！
+                加入 FB 社團，6/20 開放報名！
               </div>
             </div>
           </div>
