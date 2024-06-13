@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 
-import feature5 from "../assets/images/NCHC.jpg";
-import feature6 from "../assets/images/TsingHua.Team.02.jpg";
+import feature5 from "../assets/images/2024-sydney-team.jpg";
+import feature6 from "../assets/images/2024-hamburg-team.jpg";
 import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 
 export const Features2 = () => (
@@ -54,11 +54,7 @@ export const Features2 = () => (
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>清大超算競賽常勝軍擔任課程助教</span>
-              </li>
-              <li className="mb-4 flex">
-                <CheckArrowIcon />
-                <span>邀請 NVIDIA 專家到場演講與交流</span>
+                <span>台灣最專業學生超算成員擔任課程助教</span>
               </li>
             </ul>
           </div>
