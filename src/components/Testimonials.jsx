@@ -1,34 +1,32 @@
 import { motion } from "framer-motion";
 
 import { QuoteIcon } from "../assets/icons/QuoteIcon";
-import Enming from "../assets/images/2023-Enming.jpg";
-import John from "../assets/images/2022-John.jpg";
-import Mou from "../assets/images/2023-Mou.jpg";
-import Yi from "../assets/images/2022-Yi.jpg";
-import Wu from "../assets/images/2022-Wu.jpg";
+import ZY from "../assets/images/2024-ZY.jpg";
+import haotien from "../assets/images/2024-haotien.jpg";
+import Yi from "../assets/images/2024-Yi.jpg";
+import Shirou from "../assets/images/2024-shirou.jpg";
 import 小Ｐ from "../assets/images/小P.png";
-import Nevikw from "../assets/images/2023-Nevikw.jpg";
+import Nevikw from "../assets/images/2024-Nevikw.jpg";
 
 
 const testimonialsDataUpperRow = [
   {
-    customerName: "黃恩明",
-    customerTitle: "資工系特選學生",
+    customerName: "林展毅 (ZY)",
+    customerTitle: "來自藝設系、ISC24世界亞軍",
     content:
-      "超算不僅考驗自己的學理知識，也需要有相當的實作技能，才能勝任比賽任務",
-    image: Enming,
-  
+      "參加超算比賽可以用到很貴的顯卡喔！還可以學到很多酷東西誒！！",
+    image: ZY,
   },
   {
-    customerName: "牟展佑",
-    customerTitle: "大家的隊長",
+    customerName: "俞昊天",
+    customerTitle: "來自工學院、ISC24世界亞軍",
     content:
-      "唯有從上而下的理解整個系統的運作，才能榨出機器的完整性能",
-    image: Mou,
+      "我一輩子大概只有在超算才能用到世界頂規顯卡，一台伺服器是台北一間小套房。。。",
+    image: haotien,
   },
   {
     customerName: "翁君牧",
-    customerTitle: "ISC 世界賽隊員",
+    customerTitle: "來自資工系、ISC連續世界亞軍",
     content:
       "參加超算比賽是接觸當今前沿尖端科技的難得機會，更能開拓我們的視野",
     image: Nevikw,
@@ -38,17 +36,17 @@ const testimonialsDataUpperRow = [
 const testimonialsDataLowerRow = [
   {
     customerName: "郭品毅",
-    customerTitle: "SCC 世界冠軍隊員",
+    customerTitle: "來自資工系、SCC世界冠軍隊員",
     content:
       "資訊工程已經不再只是寫程式，需要對硬體深入了解，以取得更優異的性能，並結合跨領域的應用，才能將科技用於改善我們的生活",
     image: Yi,
   },
   {
-    customerName: "吳邦寧",
-    customerTitle: "SCC 世界冠軍隊員",
+    customerName: "程詩柔",
+    customerTitle: "來自生科系、HPC-AI亞洲季軍",
     content:
-      "魔鬼往往藏在細節裡，看似簡單的系統管理，往往會決定整個系統的效率。培養細心觀察、深入思考的能力，成為高效率的系統管理專家",
-    image: Wu,
+      "身為外系學生，參加超算比賽不僅可以和超強的同學和學長姐討論進步，還能因跨領域學習豐富履歷!",
+    image: Shirou,
   },
   {
     customerName: "小P",
