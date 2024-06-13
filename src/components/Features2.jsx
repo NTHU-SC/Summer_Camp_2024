@@ -41,7 +41,7 @@ export const Features2 = () => (
               我們專業的師資
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              營隊由國家高速網路與計算中心與國立清華大學合辦，你將獲得一流師資的指導，包括清華大學教授、世界叢集電腦競賽冠軍成員及業界專家。
+              營隊由國家高速網路與計算中心與國立清華大學合辦，你將獲得一流師資的指導，包括清華大學教授、叢集電腦競賽世界冠軍成員及業界專家。
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">

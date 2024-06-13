@@ -92,26 +92,26 @@ const MyTable = () => {
       <thead>
         <tr>
           <th> </th>
-          <th colSpan="2">Day1 7/28 (日)</th>
-          <th colSpan="2">Day2 7/29 (一)</th>
-          <th colSpan="1">Day3 7/30 (二)</th>
-          <th colSpan="1">Day4 7/31 (三)</th>
-          <th colSpan="1">Day5 8/1 (四)</th>
+          <th colSpan="2" align="center">Day1.  7/28 (日)</th>
+          <th colSpan="2" align="center">Day2.  7/29 (一)</th>
+          <th colSpan="1" align="center">Day3.  7/30 (二)</th>
+          <th colSpan="1" align="center">Day4.  7/31 (三)</th>
+          <th colSpan="1" align="center">Day5.  8/1 (四)</th>
         </tr>
       </thead>
       <tbody>
         <tr>
-            <td>活動地點</td>
-            <td>綜四223</td>
-            <td>綜四224</td>
-            <td>綜四223</td>
-            <td>綜四224</td>
-            <td>綜四224</td>
-            <td>綜四224</td>
-            <td>資電館107、國網中心 </td>
+            <td align="center">活動地點</td>
+            <td align="center">綜四223</td>
+            <td align="center">綜四224</td>
+            <td align="center">綜四223</td>
+            <td align="center">綜四224</td>
+            <td align="center">綜四224</td>
+            <td align="center">綜四224</td>
+            <td align="center">資電館107、國網中心 </td>
         </tr>
         <tr>
-            <td>9:00~9:30</td>
+            <td align="center">9:00~9:30</td>
             <td colSpan="2" align="center">報到</td>
             <td colSpan="2" rowSpan="2" align="center">業界神秘嘉賓#1</td>
             <td rowSpan="2" align="center">業界神秘嘉賓#2</td>
@@ -119,17 +119,17 @@ const MyTable = () => {
             <td colSpan="1" rowSpan="3" align="center">競賽成果發表 </td>
         </tr>
         <tr>
-            <td>9:30~10:30</td>
+            <td align="center">9:30~10:30</td>
             <td colSpan="2" align="center">開幕</td>
         </tr>
         <tr>
-            <td>10:30~12:00</td>
+            <td align="center">10:30~12:00</td>
             <td colSpan="2" align="center">平行計算簡介(基礎)</td>
             <td colSpan="2" align="center">超級電腦簡介與實操</td>
             <td align="center">效能分析</td>
         </tr>
         <tr>
-            <td>12:00~13:30</td>
+            <td align="center">12:00~13:30</td>
             <td colSpan="7" align="center">午餐 (自理)</td>
         </tr>
         <tr>
@@ -142,27 +142,26 @@ const MyTable = () => {
             <td rowSpan="2" align="center">國網中心參訪</td>
         </tr>
         <tr>
-            <td>15:00~16:00</td>
+            <td align="center">15:00~16:00</td>
             <td colSpan="2" rowSpan="2" align="center">平行程式(CPU)</td>
             <td colSpan="2" rowSpan="2" align="center">平行程式(GPU)</td>
             <td rowSpan="2" align="center">程式競賽</td>
         </tr>
         <tr>
-            <td>16:00~17:30</td>
+            <td align="center">16:00~17:30</td>
             <td align="center">人工智慧簡介</td>
             <td align="center">返校、競賽頒獎 </td>
         </tr>
         <tr>
-            <td>17:30~19:00</td>
+            <td align="center">17:30~19:00</td>
             <td colSpan="2" align="center"><em>Pizza, my friends. 🤌🍕</em></td>
             <td colSpan="1" align="center">系所介紹</td>
             <td colSpan="3" align="center">晚餐(自理)</td>
             <td rowSpan="2"> </td>
         </tr>
         <tr>
-            <td>19:00~21:30</td>
-            <td align="center">平行程式實操(CPU)</td>
-            <td align="center">平行程式實操(GPU)</td>
+            <td align="center">19:00~21:30</td>
+            <td colSpan="2" align="center">平行程式實操(CPU)</td>
             <td align="center">平行程式實操(GPU)</td>
             <td align="center">進階平行程式實操(GPU)</td>
             <td align="center">程式競賽</td>

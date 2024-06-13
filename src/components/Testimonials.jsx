@@ -21,7 +21,7 @@ const testimonialsDataUpperRow = [
     customerName: "俞昊天",
     customerTitle: "來自工學院、ISC24世界亞軍",
     content:
-      "我一輩子大概只有在超算才能用到世界頂規顯卡，一台伺服器是台北一間小套房。。。",
+      " AI 革命的到來使超算人才成為稀缺資源，身價隨著科技巨頭的競爭水漲船高。掌握一流的超算技術，必然能確保獲得一流的工作機會！",
     image: haotien,
   },
   {
@@ -45,7 +45,7 @@ const testimonialsDataLowerRow = [
     customerName: "程詩柔",
     customerTitle: "來自生科系、HPC-AI亞洲季軍",
     content:
-      "身為外系學生，參加超算比賽不僅可以和超強的同學和學長姐討論進步，還能因跨領域學習豐富履歷!",
+      "身為外系學生，參加超算比賽不僅可以和超強的同學和學長姐討論進步，還能因跨領域學習豐富履歷！",
     image: Shirou,
   },
   {
