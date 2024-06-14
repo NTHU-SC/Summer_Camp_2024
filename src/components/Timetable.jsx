@@ -31,38 +31,18 @@ export const Timetable = () => {
         whileInView={{ opacity: 1 }}
         viewport={{ once: true }}
         transition={{ duration: 0.5, delay: 0.2 }}
+        className="w-full"
       >
-
-        <div className=" 2xl:w-[1150px] xl:w-[1050px]  md:w-4/5 flex justify-center bg-customDarkBg1 pt-12 lg:pt-12 pb-4 lg:pb-10 mx-auto lg:flex-row flex-col">
-          <div className="w-3/4 lg:w-1/2 flex flex-col lg:mx-unset mx-auto">
-            {/* <span className="custom-block-subtitle">
-              精挑細選
-            </span> */}
+        <div className="w-full max-w-[1150px] flex justify-center bg-customDarkBg1 pt-12 lg:pt-12 pb-4 lg:pb-10 mx-auto flex-col">
+          <div className="w-full flex flex-col items-center">
             <h2 className="mt-10 mb-8 text-4xl lg:text-5xl custom-block-big-title">
               專業知識密集課程
             </h2>
-            {/* <p className="mb-16 text-customGrayText leading-loose">
-              Our platform enables you to launch your data-driven projects with
-              ease. Boost productivity and achieve better results. Empower your
-              decision-making with advanced analytics
-            </p>
-            <div
-              className="w-[210px] h-12 custom-button-colored mr-10 "
-              onClick={() => setIsModalOpen(true)}
-            >
-              Get Started
-            </div> */}
           </div>
-          {/* <div className="w-4/5 lg:w-1/2 lg:pl-16 flex justify-center mx-auto pt-16 lg:pt-0">
-            <img
-              src={featuresdiagonal}
-              alt="f1"
-              className="rounded-xl  custom-border-gray"
-            />
-          </div> */}
-
+          <div className="w-full overflow-x-auto"> {/* 添加 overflow-x-auto */}
+            <MyTable />
+          </div>
         </div>
-        <MyTable />
       </motion.div>
       <div className="custom-shape-divider-top-1665696661 w-full">
         <svg
