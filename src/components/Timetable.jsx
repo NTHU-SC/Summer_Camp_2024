@@ -155,7 +155,7 @@ const MyTable = () => {
         <tr>
             <td align="center">17:30~19:00</td>
             <td colSpan="2" align="center"><em>Pizza, my friends. 🤌🍕</em></td>
-            <td colSpan="1" align="center">系所介紹</td>
+            <td colSpan="1" align="center">系所介紹晚宴(限高中生)</td>
             <td colSpan="3" align="center">晚餐(自理)</td>
             <td rowSpan="2"> </td>
         </tr>

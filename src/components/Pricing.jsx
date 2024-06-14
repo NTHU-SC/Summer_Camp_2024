@@ -47,16 +47,13 @@ export const Pricing = () => {
         >
           <div className="container mx-auto px-4">
             <div className="max-w-2xl mx-auto text-center mb-16">
-              <span className="custom-block-subtitle" >
-              歡迎具備基本的 C/C++ 語言程式能力者來挑戰、學習！
-              </span>
               <h2 className="mt-6 mb-6 text-4xl lg:text-5xl font-bold font-heading text-white">
                 報名資訊
               </h2>
               <p className="mb-6 text-customGrayText" style={{ textAlign: "left", paddingLeft: "3vw" ,fontSize: "1.2rem" }}>
-              招生對象：不限，但名額有限，學生身份優先錄取
+              招生對象：限學生(國中以上)，具備基礎程式能力(C語言)
               <br />
-              授課地點：清華大學資電館
+              授課地點：清華大學
               <br />
               收費用途：用於住宿及飲食
               </p>
