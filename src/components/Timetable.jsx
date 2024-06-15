@@ -88,7 +88,7 @@ const MyTable = () => {
             <td align="center">綜四224</td>
             <td align="center">綜四224</td>
             <td align="center">綜四224</td>
-            <td align="center">資電館107、國網中心 </td>
+            <td align="center">台達館107、國網中心 </td>
         </tr>
         <tr>
             <td align="center">9:00~9:30</td>
