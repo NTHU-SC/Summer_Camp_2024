@@ -1,6 +1,7 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import { Hero } from "../components/Hero.jsx";
+import { Hero_forum } from "../components/Hero_forum.jsx";
+// import { Hero_fb } from "../components/Hero_fb.jsx";
 // import { GOGO } from "../components/GOGO.jsx";
 import { Navbar } from "../components/Navbar.jsx";
 import { Features1 } from "../components/Features1.jsx";
@@ -21,7 +22,8 @@ import "../styles/Diagonals.css";
 
 <Layout title="2024 HPC x AI Summer Camp">
   <Navbar client:load />
-  <Hero client:load />
+  <Hero_forum client:load />
+  <!-- <Hero_fb client:load /> -->
   <!-- <GOGO client:load /> -->
   <Features1 client:load />
   <Divider client:load/>

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 import { InvitationModal } from "./InvitationModal";
 import dashboard from "../assets/images/main.jpg";
 
-export const Hero = () => {
+export const Hero_forum = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
 
   return (
@@ -40,9 +40,9 @@ export const Hero = () => {
               >
                 <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-2 sm:mb-6 justify-center">
                   <a
-                    className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4" href="https://www.facebook.com/groups/300519702549029/" target="_blank"
+                    className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4" href="https://docs.google.com/forms/d/e/1FAIpQLSd1WMKOX-AlzLaYSyGIvlI_oHfOQJixAjgvBoY2V2MQMTkUdw/viewform" target="_blank"
                   >
-                    6/17 報名開始
+                    立刻報名！
                   </a>
                 </div>
               </motion.div>
