@@ -54,8 +54,6 @@ export const Pricing = () => {
               招生對象：限學生(國中以上)，具備基礎程式能力(C語言)
               <br />
               授課地點：清華大學
-              <br />
-              收費用途：用於住宿及飲食
               </p>
 
               {/* for swich between monthly and yearly. 

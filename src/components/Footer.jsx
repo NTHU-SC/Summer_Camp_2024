@@ -19,6 +19,7 @@ const footerData = [
       { label: "官方網站", link: "https://scc.nthu.site/" },
       { label: "GitHub", link: "https://github.com/nthu-sc" },
       { label: "Twitter", link: "https://twitter.com/nthuscc" },
+      { label: "Facebook", link: "https://www.facebook.com/groups/300519702549029" },
     ],
   },
   // {
