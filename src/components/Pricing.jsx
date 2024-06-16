@@ -32,7 +32,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://www.facebook.com/groups/300519702549029/', '_blank');
+    window.open('https://docs.google.com/forms/d/e/1FAIpQLSd1WMKOX-AlzLaYSyGIvlI_oHfOQJixAjgvBoY2V2MQMTkUdw/viewform', '_blank');
   };
 
   return (
@@ -166,7 +166,7 @@ export const Pricing = () => {
                 className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
                 onClick={() => handleButtonClick()}
               >
-                6/17報名開始，先加入FB粉絲團！
+                立刻報名！
               </div>
             </div>
           </div>
