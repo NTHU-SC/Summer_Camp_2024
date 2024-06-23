@@ -32,7 +32,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://docs.google.com/forms/d/e/1FAIpQLSd1WMKOX-AlzLaYSyGIvlI_oHfOQJixAjgvBoY2V2MQMTkUdw/viewform', '_blank');
+    window.open('https://scc.nthu.site/Summer_Camp_2024/form/', '_blank');
   };
 
   return (
