@@ -88,14 +88,14 @@ const MyTable = () => {
             <td align="center">綜四224</td>
             <td align="center">綜四224</td>
             <td align="center">綜四224</td>
-            <td align="center">台達館107、國網中心 </td>
+            <td align="center">資電館107、國網中心 </td>
         </tr>
         <tr>
             <td align="center">9:00~9:30</td>
             <td colSpan="2" align="center">報到</td>
-            <td colSpan="2" rowSpan="2" align="center">業界神秘嘉賓#1</td>
+            <td colSpan="2" rowSpan="2" align="center">超級電腦簡介與實操</td>
             <td rowSpan="2" align="center">業界神秘嘉賓#2</td>
-            <td colSpan="1" rowSpan="3" align="center">科學計算簡介</td>
+            <td colSpan="1" rowSpan="3" align="center">深度學習簡介</td>
             <td colSpan="1" rowSpan="3" align="center">競賽成果發表 </td>
         </tr>
         <tr>
@@ -105,7 +105,7 @@ const MyTable = () => {
         <tr>
             <td align="center">10:30~12:00</td>
             <td colSpan="2" align="center">平行計算簡介(基礎)</td>
-            <td colSpan="2" align="center">超級電腦簡介與實操</td>
+            <td colSpan="2" align="center">業界神秘嘉賓#1</td>
             <td align="center">效能分析</td>
         </tr>
         <tr>
@@ -114,11 +114,11 @@ const MyTable = () => {
         </tr>
         <tr>
             <td align="center">13:30~15:00</td>
-            <td align="center">Linux基礎</td>
-            <td align="center">平行計算簡介(進階)</td>
+            <td colSpan="2" align="center">Python環境安裝簡介</td>
+            {/* <td align="center">平行計算簡介(進階)</td> */}
             <td colSpan="2" align="center">學生叢集競賽座談會</td>
             <td align="center">效能競賽</td>
-            <td rowSpan="2" align="center">科學計算競賽</td>
+            <td rowSpan="1" align="center">科學計算簡介</td>
             <td rowSpan="2" align="center">國網中心參訪</td>
         </tr>
         <tr>
@@ -126,10 +126,11 @@ const MyTable = () => {
             <td colSpan="2" rowSpan="2" align="center">平行程式(CPU)</td>
             <td colSpan="2" rowSpan="2" align="center">平行程式(GPU)</td>
             <td rowSpan="2" align="center">程式競賽</td>
+            <td align="center">人工智慧簡介</td>
         </tr>
         <tr>
             <td align="center">16:00~17:30</td>
-            <td align="center">人工智慧簡介</td>
+            <td align="center">AI/科學應用競賽</td>
             <td align="center">返校、競賽頒獎 </td>
         </tr>
         <tr>
@@ -145,7 +146,7 @@ const MyTable = () => {
             <td align="center">平行程式實操(GPU)</td>
             <td align="center">進階平行程式實操(GPU)</td>
             <td align="center">程式競賽</td>
-            <td align="center">人工智能競賽</td>
+            <td align="center">AI/科學應用競賽</td>
         </tr>
       </tbody>
     </table>
